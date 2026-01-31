@@ -1,0 +1,23 @@
+﻿I used Claude (Sonnet 4.5) to build this adaptation of Crossy Roads in the Python language with Pygame. To stay in the one-hour limit, I told Claude in the first prompt itself the key features that I wanted to include in the game (the strategy that we were taught in class) and then closely played all the different themes in the game with detail to make changes and modifications to the code. The final product is a piece that closely resembles Crossy Roads, only it’s in 2D (similar to Frogger).
+
+
+
+
+Prompt History:
+
+
+1. “Build a Crossy Road-inspired game in Python that captures the core mechanics and aesthetic of the original as closely as possible, given the time constraint. Crossy Road is an arcade-style game where a character must cross and other hazards. Players navigate obstacles like traffic, trains, and rivers to achieve high scores.The goal is to get as far as possible without being hit. Back in MY day we called this FROGGER, which is the same in its core respects. Build something that mimics Crossy Road Python as closely as possible. You may wish to aim somewhere between Frogger and Crossy Road, since attempting something fully 3D may make the task substantially more difficult. You do not need to use cmu_graphics (though you can if you wish). Pygame or another game engine is totally acceptable as long as we can install it and run your code relatively easily.
+some features you should implement in this game:
+* endless gameplay
+* Different characters (like the Android Robot or thematic, British-themed characters) change the game's environment like a village town with rivers or snowy landscape or a busy, city scene.
+* safe zone strips
+* zones the character can hop on to reach safe zones
+* a starting point which is a big piece of safe zone
+* zones that the character has to avoid like danger zones or aliens or robots attacking which are moving horizontally”
+
+
+2. “why isn't screen scrolling happening”
+3. “add vertical screenscrolling so that the Camera  follows you upward (when you move up, the screen scrolls up)”
+4. “there should be endless gameplay. the game stops after score of 50”
+5. “in the snowman feature , the snowman is white and so is the safe zone so you can't see the snowman. make the safe zone a different color so its visible.”
+6. “make sure the cars dont overlap”
